@@ -107,4 +107,4 @@ def generar_documentos(request):
     else:
         form = ArchivoForm()
 
-    return render(request, 'cargar_archivo.html', {'form': form, 'df': df, 'docx_template': docx_template})
+    return render(request, 'index.html', {'form': form, 'df': df, 'docx_template': docx_template})
