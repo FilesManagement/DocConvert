@@ -1,0 +1,1 @@
+# en urls.py (de tu aplicación)from django.urls import pathfrom .views import generar_documentosurlpatterns = [    path('cargar-archivo/', generar_documentos, name='cargar_archivo'),]

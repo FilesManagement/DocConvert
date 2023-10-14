@@ -1,0 +1,1 @@
+from django import formsclass ArchivoForm(forms.Form):    archivo_excel = forms.FileField(label='Archivo Excel')    archivo_docx = forms.FileField(label='Archivo DOCX')    start_row = forms.IntegerField(label='Desde la fila')    end_row = forms.IntegerField(label='Hasta la fila')
